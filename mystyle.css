@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  font-family:"Poppins",sans-serif;
+  color:#222;
+}
+p {text-indent:2em;}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top: 2rem;
+}
+
+.light{
+  border-top:1px solid #d5d5d5;
+  width: 50%;
+  margin: 0 auto;
+  display:flex
+}
+body{
+  background: url('背景.png')
+}
+
+#carouselExampleCaptions{
+  width:100%;
+  height:500px;
+}
+
+#carouselExampleCaptions.carousel-inner>.carousel-item>img{
+  display:block;
+  width:100%;
+  height:500px;
+}
+
+.navbar{
+  background:#222
+}
